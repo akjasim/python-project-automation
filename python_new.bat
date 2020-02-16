@@ -8,7 +8,7 @@ echo Creating virtual environment...
 virtualenv venv
 mkdir src
 cd src
-echo "%~1" > README.md
+echo # %~1 > README.md
 make_repo.py "%~1" "%~3"
 if %ERRORLEVEL% NEQ 200 (
     EXIT /B 1
