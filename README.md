@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 #### 4) Add environment variables. Google on 'how to add environment variable in windows', if you're not comfortable with it.
 
-##### Note: There are two pairs below and each pair consists of variable name and variable value.
+##### Note: There are two environment variables you have to set which is shown below and each pair consists of variable name and variable value.
 
 ```bash
 github_user  YOUR_GITHUB_USERNAME
